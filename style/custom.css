@@ -1,11 +1,47 @@
-html{
-    background-color: black;
+html {
+    background-color:#000;
+    height:100%;
+    margin:0;
+}
+body {
+    height:100%;
+    margin:0;
+    color: #fff;
+    background-color:#000;
 }
 
+h1 {
+    font-size:60px;
+}
+h4 {
+    font-size:24px;
+}
+.intro-wrapper {
+    min-height:100%;
+    align-items: center;
+}
 .intro {
-    margin-top:35em;
+/* styling of her intro section */
+
 }
 
 .experience {
-    margin-top:35em;
+}
+
+.hero-cta {
+    font-size:20px;
+}
+
+
+
+
+/* ----------------------------------------- */
+	/* mobile phones */
+ @media only screen and (min-width: 320px) and (max-width:480px) {
+    h1 {
+        font-size:32px;
+    }
+    h4 {
+        font-size:18px;
+    }
 }
