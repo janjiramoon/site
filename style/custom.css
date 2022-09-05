@@ -17,6 +17,10 @@ h1 {
     font-style:italic;
     font-weight:bold;
 }
+h2 {
+    font-family: 'Merriweather' , serif;
+    font-size:24px;
+}
 h4 {
     font-size:24px;
 }
@@ -26,6 +30,13 @@ a {
     text-decoration: none;
     transition: all 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
+
+.inline-link {
+    transition: all 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
 .navbar {
     background-color: #000;
 }
@@ -71,6 +82,34 @@ a {
     /* will probably have to fix this on mobile? */
 }
 
+.side-text-container {
+    display:flex;
+    align-items:center;
+}
+
+
+.footer {
+    background-color:#000;
+}
+
+.homepage-back-button{
+    padding: 5px 25px 5px 25px;
+    border-radius: 42px;
+    background-color: #1C1C1C;
+    width: max-content;
+}
+
+.contact-me-button {
+    padding: 5px 25px 5px 25px;
+    border-radius: 42px;
+    background-color: #1C1C1C;
+    width: max-content;
+}
+
+
+.about-me-img {
+    border-radius: 70px;
+}
 /* ----------------------------------------- */
 	/* mobile phones */
  @media only screen and (min-width: 320px) and (max-width:480px) {
@@ -80,4 +119,13 @@ a {
     h4 {
         font-size:18px;
     }
+    .description-text {
+        font-size:18px;
+    }
+    .project-description {
+        font-size:14px;
+    }
+
 }
+
+
