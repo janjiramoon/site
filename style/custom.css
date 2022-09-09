@@ -1,5 +1,5 @@
 html {
-    background-color:#000;
+    background-color:#141414;
     height:100%;
     margin:0;
 }
@@ -7,7 +7,7 @@ body {
     height:100%;
     margin:0;
     color: #fff;
-    background-color:#000;
+    background-color:#141414;
     font-family: 'Inter', sans-serif;
 }
 
@@ -30,6 +30,10 @@ a {
     text-decoration: none;
     transition: all 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
+a:hover {
+    color:#b19cd9;
+    filter: drop-shadow(0 0 3px #b19cd9);
+}
 
 .inline-link {
     transition: all 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
@@ -38,7 +42,7 @@ a {
 }
 
 .navbar {
-    background-color: #000;
+    background-color: #141414;
 }
 .description-text{
     font-size:24px;
@@ -63,19 +67,12 @@ a {
 .project-landing-title {
     font-size:60px;
 }
+
 .project-description {
     font-size:18px;
     font-family: 'Merriweather' , serif;
+    font-style:italic;
 }
-.project-description {
-    font-size:18px;
-    font-family: 'Inter' , serif;
-}
-
-
-
-
-
 
 .project-page {
     margin-top:10%;
@@ -89,7 +86,7 @@ a {
 
 
 .footer {
-    background-color:#000;
+    background-color:#141414;
 }
 
 .homepage-back-button{
@@ -106,10 +103,24 @@ a {
     width: max-content;
 }
 
+.next-project-button {
+    font-family: 'Merriweather' , serif;
+    font-style:italic;
+}
 
 .about-me-img {
     border-radius: 70px;
 }
+
+.glow {
+   /* filter: drop-shadow(0 0 3px #f5f5f5); */
+}
+
+
+
+
+
+
 /* ----------------------------------------- */
 	/* mobile phones */
  @media only screen and (min-width: 320px) and (max-width:480px) {
